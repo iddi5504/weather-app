@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body id="body" style="backdrop-filter: blur(10px);">
+    <div  class="maincontainer">
+        <div id="content"  class="container">
+            <div style="color: cyan;"> <h3 id="temp">0 <sup>o</sup></h3></div>
+            <div style=" display: flex; flex-direction: column; align-items: center;" class="container">
+
+                    <input  type="text" name="country" id="countryinput" placeholder="Search City">
+
+                    <button id="searchbutton"><p>Search</p></button>
+
+                </div>
+               
+                <div id="results" >
+                   
+
+                      <div class="descriptions">
+                        <span class="description">City</span>
+                        <span class="description">Wind Speed</span>
+                        <span class="description">Humidity</span>
+                        <span class="result">Weather</span>
+                      </div>
+
+                      <div class="descriptionresults">
+                        <span id="city"></span>
+                        <span id="windspeed"></span>
+                        <span id="humidity"></span>
+                         <span id="weather"></span>
+                      </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>

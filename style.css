@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#searchbutton{
+    margin-top: 30px;
+    background: transparent;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    width: 100px;
+    box-shadow: 2px 2px black;
+    font-size: 20px;
+}
+
+#searchbutton:hover{
+    background-color:transparent;
+    box-shadow: 1px 1px black;
+}
+
+.maincontainer{
+    width: 497px;
+    height: 100%;
+    background-color:#282822;
+    margin: auto;
+    background-image: url("weather.jpg");
+    background-size: cover;
+  
+}
+
+#content{ 
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 200;
+    backdrop-filter: brightness(80%);
+}
+
+#results{
+    background-color: transparent;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 24px;
+    height: 200px;
+    width: 378px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(2px);
+   
+   
+}
+
+.descriptionresults{
+    display: flex ;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-variant-caps: all-petite-caps;
+}
+
+
+
+.descriptions{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+   flex: 1;
+}
+
+#countryinput{
+    border: 1px rgb(173, 103, 103) solid;
+    border-radius: 5px;
+    padding: 13px;
+}
+
+#countryinput{
+    width: 311px;
+    height: 50px;
+    box-shadow: 4px 4px #1a0b0b;
+    background-color: black;
+    border: 0px;
+    color: #b3a4a4;
+    font-size: 22px;
+    font-stretch: expanded;
+    font-variant-caps: all-petite-caps;
+    border-radius: 10px;
+    padding-left: 16px;
+}
+#temp{
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: system-ui;
+}
